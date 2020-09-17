@@ -3,7 +3,7 @@ This repo present the main code to realize the Mixture-of-Robust-Experts structu
 
 ### The folder cifar10 is to apply our MoRE method to cifar10 dataset
 
-The 'single model training' folder in this folder is to help us to train clean, adversarial and natura perturbations experts individually. To download cifar10 dataset and train different types of experts:
+The `single model training` folder in this folder is to help us to train clean, adversarial and natura perturbations experts individually. To download cifar10 dataset and train different types of experts:
     python main.py
 
 ### The folder Tiny ImageNet is to apply our MoRE method to Tiny ImageNet dataset
