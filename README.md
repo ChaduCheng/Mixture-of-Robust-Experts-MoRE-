@@ -26,7 +26,7 @@ To apply MoRE to all experts, which include clean expert, different types of adv
 
     python main_desk_all.py
     
-To achieve dynamic image type classifier:
+To achieve Dynamic Image Type Classifier(DITC):
 
     python main_desk_DITC.py
     
@@ -38,4 +38,4 @@ To achieve baseline method Average Mixture of Experts(AMoE):
 
     python main_desk_aver.py
     
-
+The folder `MSD` is the code to achieve MSD method in similar experimental setting. There are also have two folders `cifar` and `tinyimagenet` that are the applying MSD to two different dataset cifar10 and Tiny Imagenet. Different `.sh` file in these two folders could achieve all experiments mentioned in our paper.
