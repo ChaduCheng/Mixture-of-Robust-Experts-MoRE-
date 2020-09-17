@@ -1,11 +1,16 @@
 # Mixture-of-Robust-Experts-MoRE-
 This repo present the main code to realize the Mixture-of-Robust-Experts structure. This structure could mix clean, adversarial and natural perturbations models to defend against corresponding types of inputs.
 
-### The folder cifar10 is to apply our MoRE method to cifar10 dataset
+Folder `cifar10` and `Tiny ImageNet` are the codes that achieve MoRE in two different dataset cifar10 and Tiny ImageNet.
 
-The `single model training` folder in this folder is to help us to train clean, adversarial and natura perturbations experts individually. To download cifar10 dataset and train different types of experts:
+The `single model training` folder in this folder is to help us to train clean, adversarial and natura perturbations experts individually. To download cifar10 dataset or Tiny ImageNet dataset and train different types of experts:
 
     python main.py
+
+Sometimes, there are some problems about downloading Tiny ImageNet, we can also download and unzip the following archive:
+
+
+* [Tiny ImageNet Dataset](https://tiny-imagenet.herokuapp.com/)  
 
 The trained model will be stored in `checkpoint` folder. and put these trained models to folder `trained_model`. Then we could use our the following codes to achieve MoRE.
 
@@ -33,4 +38,4 @@ To achieve baseline method Average Mixture of Experts(AMoE):
 
     python main_desk_aver.py
     
-### The folder Tiny ImageNet is to apply our MoRE method to Tiny ImageNet dataset
+
