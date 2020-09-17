@@ -3,4 +3,6 @@ This repo present the main code to realize the Mixture-of-Robust-Experts structu
 
 ### The folder cifar10 is to apply our MoRE method to cifar10 dataset
 
+    python main.py
+
 ### The folder Tiny ImageNet is to apply our MoRE method to Tiny ImageNet dataset
