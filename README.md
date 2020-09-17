@@ -11,6 +11,26 @@ The trained model will be stored in `checkpoint` folder. and put these trained m
 
 To apply MoRE to clean expert and different types of adversarial models:
 
-        python main_desk_adv.py
+    python main_desk_adv.py
 
+To apply MoRE to clean expert and different types of natural perturbations models:
+
+    python main_desk_nat.py
+    
+To apply MoRE to all experts, which include clean expert, different types of adversarial models and natural perturbations models:
+
+    python main_desk_all.py
+    
+To achieve dynamic image type classifier:
+
+    python main_desk_DITC.py
+    
+To achieve baseline method Mix Mixture of Experts(MMoE):
+
+    python main_desk_max.py
+    
+To achieve baseline method Average Mixture of Experts(AMoE):
+
+    python main_desk_aver.py
+    
 ### The folder Tiny ImageNet is to apply our MoRE method to Tiny ImageNet dataset
